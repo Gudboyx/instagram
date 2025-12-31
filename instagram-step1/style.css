@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    background: #fafafa;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background: white;
+    text-align: center;
+    font-size: 26px;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.feed {
+    max-width: 400px;
+    margin: auto;
+}
+
+.post {
+    background: white;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
+
+.post img {
+    width: 100%;
+}
+
+.actions {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.post p {
+    padding: 0 10px 10px;
+}

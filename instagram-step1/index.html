@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head><script>
+if (!localStorage.getItem("loggedIn")) {
+    window.location.href = "login.html";
+}
+</script>
+    <title>Instagram Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <button onclick="logout()">Logout</button>
+<script>
+function logout() {
+    localStorage.removeItem("loggedIn");
+    window.location.href = "login.html";
+}
+</script>
+
+<div class="login-box">
+    <h1>Instagram</h1>
+
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+
+    <button onclick="login()">Log In</button>
+
+    <p id="error"></p>
+</div>
+
+<script src="login.js"></script>
+</body>
+</html>

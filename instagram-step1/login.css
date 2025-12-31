@@ -1,0 +1,44 @@
+body {
+    background: #fafafa;
+    font-family: Arial, sans-serif;
+}
+
+.login-box {
+    width: 300px;
+    margin: 100px auto;
+    background: white;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.login-box h1 {
+    font-family: cursive;
+    margin-bottom: 20px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background: #3897f0;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.or {
+    margin: 15px 0;
+    color: gray;
+}
+
+.signup {
+    font-size: 14px;
+}
